@@ -1,27 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>DKNY Products</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DKNY Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Various Sections -->
-    <section id="products">
-        <!-- Products List -->
+    <section class="hero">
+        <h1>Welcome to DKNY Shop</h1>
+        <p>Discover our latest collections and exclusive offers.</p>
     </section>
 
-    <section id="contact">
-        <!-- Contact Form -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-item">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Description of Product 1.</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Repeat for other products -->
+    </section>
+
+    <section class="video-section">
+        <h2>Latest Fashion Show</h2>
+        <video controls>
+            <source src="fashion_show.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </section>
 
     <footer>
-        <!-- Footer Content -->
+        <p>&copy; 2023 DKNY Shop. All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
